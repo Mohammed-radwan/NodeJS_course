@@ -99,13 +99,13 @@ npm install --save-dev nodemon
 1. Print a variable specified in a route by the user (google is your friend!)
 2. Print the desired result of the following route: 
 ```
-_/<number>/plus/<number>/is_
+/<number>/plus/<number>/is
 ```
 3. Convert the result of exercise 3 into cardinal numbers. For example 3 -> three, 6 -> six (use a npm package)
 4. Print an error
 5. Send an email to an address via the following route 
 ```
-_/sendmail/<to>_
+/sendmail/<to>
 ```
 ---
 ## Reading list
