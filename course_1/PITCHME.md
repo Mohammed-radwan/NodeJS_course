@@ -4,6 +4,7 @@ _Tell me your favourite website and name!_
 ![server - client communication](http://computernetworkingsimplified.in/wp-content/uploads/clientserver.jpg)
 
 [More info](https://www.lifewire.com/servers-in-computer-networking-817380)
+
 Note:
 A server is a computer program or a device that provides functionality for other programs or devices, called "clients".
 ---
@@ -97,16 +98,10 @@ npm install --save-dev nodemon
 ---
 ## Let's have some fun!
 1. Print a variable specified in a route by the user (google is your friend!)
-2. Print the desired result of the following route: 
-```
-/<number>/plus/<number>/is
-```
+2. Print the desired result of the following route: _/\<number\>/plus/\<number\>/is_
 3. Convert the result of exercise 3 into cardinal numbers. For example 3 -> three, 6 -> six (use a npm package)
-4. Print an error
-5. Send an email to an address via the following route 
-```
-/sendmail/<to>
-```
+4. Print an error if a string and not a number is given in exercise 3. [Hint](https://stackoverflow.com/questions/10563644/how-to-specify-http-error-code)
+5. Send an email to an address via the following route _/sendmail/\<to\>_ ([NodeMailer](https://www.npmjs.com/package/nodemailer) can be used to send a test email)
 ---
 ## Reading list
 - Read more about [servers](http://ptgmedia.pearsoncmg.com/images/0130225347/samplechapter/0130225347.pdf)
