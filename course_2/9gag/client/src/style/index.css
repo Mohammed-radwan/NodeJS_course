@@ -1,0 +1,58 @@
+body{
+  font-family: Helvetica;
+}
+.joke_list{
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.joke_detail{
+  width: 100%;
+  max-width: 650px;
+  margin: auto;
+}
+
+.joke{
+  margin: 20px 0px;
+}
+.joke:first-of-type{
+  margin-top: 10px;
+}
+.joke h2{
+  font-weight: bold;
+  font-size: 16pt;
+  margin-bottom: 5px;
+}
+.joke_img{
+  width: 100%;
+}
+
+.joke_actions{
+  overflow: auto;
+  display: flex;
+  align-items: center;
+}
+.joke_actions form{
+  float: left;
+  margin-left: 5px;
+}
+.joke_actions form:first-of-type{
+  margin-left: 0px;
+}
+.joke_actions p{
+   margin-left: auto;
+}
+
+button{
+  padding: 3px 5px;
+  border-radius: 2px;
+  border: 1px solid #494949;
+}
+button:hover{
+  background-color: #DBDBDB;
+  cursor: pointer;
+}
+button img{
+  width: 15px;
+}
