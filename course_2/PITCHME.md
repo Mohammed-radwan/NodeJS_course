@@ -20,3 +20,25 @@ Where is somewhere?
 The database!
 ---
 ![database, server, client](http://afterhoursprog.wpengine.com/wp-content/uploads/2014/09/webFlowWithDatabase.gif)
+---
+Let's have a look at the database.
+Go to [www.phpmyadmin.co](http://www.phpmyadmin.co)
+```
+server: sql7.freemysqlhosting.net
+Username: sql7252233
+Password: DtwyYW71zK
+```
+---
+Let's setup the server
+```
+mkdir server
+cd server
+npm init -y
+npm install express --save
+npm install nodemon --save-dev
+```
+create file: index.js
+add following statement in the script tag of package.json
+```
+nodemon index.js
+```
