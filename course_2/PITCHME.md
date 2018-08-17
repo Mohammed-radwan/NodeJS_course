@@ -38,7 +38,8 @@ npm install express --save
 npm install nodemon --save-dev
 ```
 create file: index.js
+
 add following statement in the script tag of package.json
 ```
-nodemon index.js
+"start": "nodemon index.js",
 ```
