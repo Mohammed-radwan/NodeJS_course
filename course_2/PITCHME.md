@@ -19,3 +19,4 @@ Where is somewhere?
 ---
 The database!
 ---
+![database, server, client](http://afterhoursprog.wpengine.com/wp-content/uploads/2014/09/webFlowWithDatabase.gif)
