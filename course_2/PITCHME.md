@@ -60,9 +60,8 @@ let's connect to the database.
 
 Create a file named: connection.js and follow these [instructions](https://www.npmjs.com/package/mysql#introduction)
 ---
-Let's build our first get route
+Requirements to get all the jokes
 ```
-REQUIREMENTS (NOT CODE)
 route path: /get/jokes
 callback: [
   {
@@ -81,14 +80,76 @@ callback: [
 ordered by "upload_time"
 ```
 ---
-Let's build our first post route to upvote posts
+Requirements to upvote a joke
 ```
-REQUIREMENTS (NOT CODE)
 route path: /update/joke/upvote
-variables: jokeID
+post variables: { jokeID }
 callback: {
   status: "succes",
   message: "joke upvoted"
+}
+```
+(Make variation for downvote)
+---
+Requirements to upload a joke
+```
+route path: /post/joke
+post variables: {
+  title,
+  file: {
+    base64,
+    type
+  }
+}
+callback: {
+  status: "succes",
+  message: "joke uploaded"
+}
+```
+---
+Requirements to get a single joke
+```
+route path: /get/joke/:id
+callback: {
+  id: 1,
+  title: "",
+  image_location: "",
+  up_votes: 0,
+  down_votes: 0
+  upload_time
+}
+```
+---
+HOMEWORK
+---
+Requirements to get comments per joke
+```
+route path: /get/comments/:jokeId
+callback: [
+  {
+    id: 1,
+    joke_id: "",
+    username: "",
+    text: "",
+  },
+  {
+    ...
+  },
+  ...
+]
+```
+---
+Requirements to post a comment
+```
+route path: /post/joke
+post variables: {
+  text,
+  username,
+  joke_id
+}
+callback: {
+  status: "succes",
+  message: "comment posted"
 }
 ```
 ---
