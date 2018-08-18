@@ -62,6 +62,7 @@ Create a file named: connection.js and follow these [instructions](https://www.n
 ---
 Let's build our first get route
 ```
+REQUIREMENTS (NOT CODE)
 route path: /get/jokes
 callback: [
   {
@@ -82,6 +83,7 @@ ordered by "upload_time"
 ---
 Let's build our first post route to upvote posts
 ```
+REQUIREMENTS (NOT CODE)
 route path: /update/joke/upvote
 variables: jokeID
 callback: {
