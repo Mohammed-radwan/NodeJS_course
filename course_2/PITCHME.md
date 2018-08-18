@@ -29,6 +29,14 @@ Username: sql7252233
 Password: DtwyYW71zK
 ```
 ---
+Clone the [NodeJS course](https://github.com/HackYourFutureBelgium/NodeJS_course)
+```
+git clone https://github.com/HackYourFutureBelgium/NodeJS_course.git
+cd NodeJS_course/course_2/9gag/client
+npm install
+npm start
+```
+---
 Let's setup the server
 ```
 mkdir server
@@ -43,3 +51,42 @@ add following statement in the script tag of package.json
 ```
 "start": "nodemon index.js",
 ```
+---
+let's do the regular setup we learned last week
+---
+install the [MySQL npm package](https://www.npmjs.com/package/mysql)
+---
+let's connect to the database.
+
+Create a file named: connection.js and follow these [instructions](https://www.npmjs.com/package/mysql#introduction)
+---
+Let's build our first get route
+```
+route path: /get/jokes
+callback: [
+  {
+      id: 1,
+      title: "",
+      image_location: "",
+      up_votes: 0,
+      down_votes: 0
+      upload_time
+  },
+  {
+    ...
+  },
+  ...
+]
+ordered by "upload_time"
+```
+---
+Let's build our first post route to upvote posts
+```
+route path: /update/joke/upvote
+variables: jokeID
+callback: {
+  status: "succes",
+  message: "joke upvoted"
+}
+```
+---

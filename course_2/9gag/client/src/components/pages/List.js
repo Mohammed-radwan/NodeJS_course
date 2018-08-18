@@ -23,7 +23,7 @@ class List extends Component {
   }
   generateJokes(){
     if(this.state.jokes.length === 0){
-      return <p>Please implement the route: /jokes</p>
+      return <p>Please implement the route: /get/jokes</p>
     }
     return this.state.jokes.map(data => {
       return(
