@@ -141,7 +141,7 @@ callback: [
 ---
 Requirements to post a comment
 ```
-route path: /post/joke
+route path: /post/comment
 post variables: {
   text,
   username,
