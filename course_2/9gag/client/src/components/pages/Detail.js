@@ -8,7 +8,7 @@ class Detail extends Component {
   constructor(props){
     super(props);
     this.state = {
-      joke: null
+      joke : null
     }
   }
   getData(){
